@@ -47,6 +47,8 @@ print(result)
 
 print(add(3, 4))
 
+result = input('name')
+
 # -> [type]  is saying this function is returning a value from type <type>
 def mul(a: int, b: int) -> int:
     return a * b
@@ -55,11 +57,11 @@ print(mul(22, 333))
 
 def biggest(a: int, b: int, c: int) -> int:
     """
-    function biggest returns the biggest of 3 numbers
-    :param a: number 1
-    :param b: number 2
-    :param c: number 3
-    :return: the biggest number of a, b, c
+    what it does?
+    :param a:
+    :param b:
+    :param c:
+    :return:
     """
     pass
 
@@ -99,7 +101,7 @@ def calc_statistics(grades: list, oper: str) -> int:
     pass
 # i.e
 calc_statistics ([40, 50, 60], "maximum")  # 60
-calc_statistics ([40, 50, 60], "minimun")  # 40
+calc_statistics ([40, 50, 60], "minimum")  # 40
 calc_statistics ([40, 50, 60], "length")  # 3
 calc_statistics ([40, 50, 60], "sum")  # 150
 calc_statistics ([40, 50, 60], "average")  # 50
