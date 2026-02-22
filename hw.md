@@ -114,7 +114,7 @@ def calc_result(num1: int, oper: str, num2: int) -> int:
     Supported operations: +, -, *, %
 
     Example:
-        calc_result(7, '%', 3) -> 1
+        calc_result(7, '*', 3) -> 21
     """
     # TODO: implement
     pass
