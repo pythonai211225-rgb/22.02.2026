@@ -88,3 +88,28 @@ def get_grade_value(grade: int) -> str:
 
     """
     pass
+
+def calc_statistics(grades: list, oper: str) -> int:
+    """
+    get a list and operation, returns the operation result
+    :param grades: list of grades
+    :param oper: "max" or "min" or "len" or "avg"
+    :return: the result of the operation on the list
+    """
+    pass
+# i.e
+calc_statistics ([40, 50, 60], "maximum")  # 60
+calc_statistics ([40, 50, 60], "minimun")  # 40
+calc_statistics ([40, 50, 60], "length")  # 3
+calc_statistics ([40, 50, 60], "sum")  # 150
+calc_statistics ([40, 50, 60], "average")  # 50
+
+
+
+
+
+
+
+
+
+
