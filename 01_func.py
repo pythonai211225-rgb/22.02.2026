@@ -107,7 +107,7 @@ def intruders(invited_set, participant_set):
 # print if there were intruder to the party (people not invited)
 # i.e.
 '''
-invited = {
+invited_set = {
     "Alice Thompson",
     "Marcus Chen",
     "Elena Rodriguez",
@@ -119,7 +119,7 @@ invited = {
     "Naomi Wattson",
     "Liam O'Connor"
 }
-paritcipants = {
+participant_set = {
     "Silas Vance",
     "Julian Vance",
     "Sarah Jenkins",
