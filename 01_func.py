@@ -153,6 +153,7 @@ participant_set = {
 }
 '''
 
+####################### BONUS #######################
 def foo(is_true: bool):
     print(is_true)
 
@@ -165,9 +166,6 @@ def remove_odd_even(list1 : list, even: bool):
 remove_odd_even([1, 3, 5, 6, 8, 9], True)   # [1, 3, 5, 9]
 remove_odd_even([1, 3, 5, 6, 8, 9], False)  # [6, 8]
 
-'''
-
-'''
 
 
 
