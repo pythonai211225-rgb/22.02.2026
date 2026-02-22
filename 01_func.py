@@ -1,4 +1,7 @@
 
+
+########################################### PROCEDURES ###########################################
+
 # do not repeat code
 # code imported from other projects/users
 # code from python input
@@ -161,7 +164,10 @@ foo(True)
 foo(False)
 
 def remove_odd_even(list1 : list, even: bool):
-    pass
+    for num in list(list1):
+        if num % 2 == 0:
+            while num in list1:
+                list1.remove(num)
 
 remove_odd_even([1, 3, 5, 6, 8, 9], True)   # [1, 3, 5, 9]
 remove_odd_even([1, 3, 5, 6, 8, 9], False)  # [6, 8]
