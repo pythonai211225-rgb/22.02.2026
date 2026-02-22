@@ -103,6 +103,30 @@ age_title([20, 30, 31, 36, 38], 32)
 
 def intruders(invited_set, participant_set):
     pass
+
+invited_set = {
+    "Alice Thompson",
+    "Marcus Chen",
+    "Elena Rodriguez",
+    "Julian Vance",
+    "Sarah Jenkins",
+    "Kofi Mensah",
+    "Priya Sharma",
+    "Oliver Sterling",
+    "Naomi Wattson",
+    "Liam O'Connor"
+}
+participant_set = {
+    "Silas Vance",
+    "Julian Vance",
+    "Sarah Jenkins",
+    "Maeve O'Sullivan",
+    "Kofi Mensah",
+    "Cassian Thorne"
+}
+
+intruders(invited_set, participant_set)
+
 # function intruder
 # print if there were intruder to the party (people not invited)
 # i.e.
@@ -127,6 +151,22 @@ participant_set = {
     "Kofi Mensah",
     "Cassian Thorne"
 }
+'''
+
+def foo(is_true: bool):
+    print(is_true)
+
+foo(True)
+foo(False)
+
+def remove_odd_even(list1 : list, even: bool):
+    pass
+
+remove_odd_even([1, 3, 5, 6, 8, 9], True)   # [1, 3, 5, 9]
+remove_odd_even([1, 3, 5, 6, 8, 9], False)  # [6, 8]
+
+'''
+
 '''
 
 
