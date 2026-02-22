@@ -47,11 +47,9 @@ print(result)
 # [12, 8, 5.0, 20]
 ```
 
-Submit email: *[pythonai211225+python14func1@gmail.com](mailto:pythonai211225+python14func1@gmail.com)*
-
-
-
 ## ✨✨ Question 3 – Bonus challenge: Mini math game -- Experts only! ✨✨
+
+<img src="mathkids.jpg" />
 
 Implement a small game
 
@@ -142,4 +140,4 @@ whats the result? 3
 Wrong.. the answer was 1
 ```
 
-
+Submit email: *[pythonai211225+python14func1@gmail.com](mailto:pythonai211225+python14func1@gmail.com)*
