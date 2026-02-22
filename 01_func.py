@@ -86,10 +86,12 @@ add2()
 #   input number from the user, call the function even_odd
 #   default value = 0
 
-def foo(list_ages, new_age):
+def age_title(list_ages, new_age):
     pass
 
-foo([20, 30, 31, 36, 38], 42)
+age_title([20, 30, 31, 36, 38], 42)
+age_title([20, 30, 31, 36, 38], 12)
+age_title([20, 30, 31, 36, 38], 32)
 
 # these are the ages of the group members: i.e. [20, 30, 31, 36, 38]
 # write a function that get the group ages as parameter
@@ -99,6 +101,33 @@ foo([20, 30, 31, 36, 38], 42)
 #      [20, 30, 31, 36, 38]  12 --> youngest
 #      [20, 30, 31, 36, 38]  32 --> between
 
+def intruders(invited_set, participant_set):
+    pass
+# function intruder
+# print if there were intruder to the party (people not invited)
+# i.e.
+'''
+invited = {
+    "Alice Thompson",
+    "Marcus Chen",
+    "Elena Rodriguez",
+    "Julian Vance",
+    "Sarah Jenkins",
+    "Kofi Mensah",
+    "Priya Sharma",
+    "Oliver Sterling",
+    "Naomi Wattson",
+    "Liam O'Connor"
+}
+paritcipants = {
+    "Silas Vance",
+    "Julian Vance",
+    "Sarah Jenkins",
+    "Maeve O'Sullivan",
+    "Kofi Mensah",
+    "Cassian Thorne"
+}
+'''
 
 
 
