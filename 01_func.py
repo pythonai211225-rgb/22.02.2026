@@ -89,9 +89,9 @@ add2()
 def age_title(list_ages, new_age):
     pass
 
-age_title([20, 30, 31, 36, 38], 42)
-age_title([20, 30, 31, 36, 38], 12)
-age_title([20, 30, 31, 36, 38], 32)
+age_title([36, 30, 38, 20, 31], 42)
+age_title([36, 30, 38, 20, 31], 12)
+age_title([36, 30, 38, 20, 31], 32)
 
 # these are the ages of the group members: i.e. [20, 30, 31, 36, 38]
 # write a function that get the group ages as parameter
