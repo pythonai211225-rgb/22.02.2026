@@ -47,7 +47,7 @@ print(result)
 # [12, 8, 5.0, 20]
 ```
 
-## Question 3 – Bonus challenge: Mini math game -- Experts only!
+## ✨✨ Question 3 – Bonus challenge: Mini math game -- Experts only! ✨✨
 
 Implement a small game
 
