@@ -76,3 +76,15 @@ def smallest(a: int, b: int, c: int) -> int:
     pass
 
 # 5, -2, 30
+
+def foo(a: str, b: str) -> str:
+    return a + " " + b
+
+def get_grade_value(grade: int) -> str:
+    """
+
+    :param grade: grade between 1-100
+    :return: 0-40 return "fail", 40-60 return "need improvement" 60-80 return "not bad" 80-100 return "very good!"
+
+    """
+    pass
